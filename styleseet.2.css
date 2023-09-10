@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  font-family:"Helvetica","Hiragino Maru Gothic Pro W4";}
+
+a{text-decoration: none;}
+.page-content{
+  background-color:rgba(34, 49, 52, 0.9);
+color: aliceblue;}
+.content-inner{
+  background-color: rgb(171, 243, 243);
+}
+.btn{
+  padding:8px 24px;
+  color:white;
+  display: inline-block;
+  border-radius: 4px;
+  opacity: 0.8;
+  background-color: blue;
+  justify-content: center;
+  position: relative;
+  width: 145px;
+}
+.btn:hover{
+  opacity: 1;}
+  .logo{
+    width: 45px;
+    height: 35px;
+    position: absolute;
+    left: 10px;
+  }
