@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  font-family:"Helvetica","Hiragino Maru Gothic Pro W4";}
+
+a{text-decoration: none;}
+/*ヘッダ―の作成*/
+header{
+  height: 45px;px;
+  background-color:rgba(34, 49, 52, 0.9);}
+.logo{
+  height: 20px;
+  margin-top:4px;
+  margin-left: 5px;
+}
+.top-wrapper{
+  padding:180px 0px 100px 0px;
+  text-align:center;
+  background-image: url(https://cdn.pixabay.com/photo/2016/04/28/16/24/disney-1359222_1280.jpg);
+  background-size:cover;
+  color: white;
+}
+.top-wrapper h1{
+  opacity:0.8;
+  font-size: 45px;
+  letter-spacing:5px;
+}
+.top-wrapper p{
+  opacity: 0.8;
+}
+.btn-wrapper{
+  maegin: 10px 0px;
+}
+.twitter{
+  background-color: #55acee;}
+  .btn{
+    padding:8px 24px;
+    color:white;
+    display: inline-block;
+    border-radius: 4px;
+    opacity: 0.8;
+  }
+  .btn:hover{
+    opacity: 1;
+  }
+  .fa{
+    margin-right:5px;
+  }
+  
+  .content_item {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    background-color: rgb(196, 237, 238);
+  }
+  
+  .content_item img {
+    width: 300px;
+    height: auto;
+  }
+  
+  
+  .content_txt {
+    padding: 10px 0 0 20px;
+  }
+  
+  .content_txt p {
+    max-width: 500px;
+    padding: 10px 0;
+  }
+  
+  .more_btn {
+    background-color: rgb(199, 197, 197);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .more_btn a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  
+  /* page_1.html,page_2.html,page_3.htmlページ */
+  .page_content {
+    text-align: center;
+  }
+  
+  .page_content h2,.page_content img,.content_inner {
+    padding: 10px 0;
+  }
+  
+  .page_content img {
+    width: 500px;
+    height: auto;
+  }
+  
+  .content_inner {
+    max-width: 600px;
+    text-align: left;
+    margin: 0 auto;
+  }
