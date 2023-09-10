@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  font-family:"Helvetica","Hiragino Maru Gothic Pro W4";}
+
+a{text-decoration: none;}
+.page-content{
+  background-color:rgba(34, 49, 52, 0.9);
+color: aliceblue;}
+.content-inner{
+  background-color: rgb(171, 243, 243);
+}
+.univer{
+  display: flex;
+}
+.univer p{
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.sports{
+  padding-top: 20px;
+  display: flex;
+}
+.sports p{
+  padding-top: 30px;
+  padding-left: 10px;
+}
